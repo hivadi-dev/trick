@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(18, 18, 18, 0.938);
+    direction: rtl;
+
+}
+
+.txt {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.619);
+    /* padding: 20px auto; */
+
+}
+
+#container {
+    margin: 90px 50px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    >.ax {
+        width: 400px;
+        height: 500px;
+        border: 3px solid black;
+        position: relative;
+        overflow: hidden;
+
+        >img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.831);
+            opacity: 0;
+            transition: 1s;
+        }
+
+        &:after {
+            width: 370px;
+            height: 470px;
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            z-index: 4;
+            border: 2px solid rgba(255, 255, 255, 0.772);
+            transition: 1.5s;
+            margin: 10px;
+
+        }
+
+
+        >h2 {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            position: absolute;
+            color: white;
+            /* background-color: red; */
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            /* right:px ; */
+            bottom: 120px;
+            margin: 0;
+            opacity: 0;
+            z-index: 2;
+            transition: 1s;
+        }
+
+        >figcaption {
+            position: absolute;
+            left: 80px;
+            bottom: 40px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            color: white;
+            margin: 0;
+            font-size: 20px;
+            padding-right: 70px;
+            opacity: 0;
+            z-index: 3;
+            transition: 1.5s;
+            
+            
+
+        }
+
+        &:hover {
+            &::before {
+                opacity: 1;
+            }
+
+            &::after {
+                opacity: 1;
+            }
+
+            h2,
+            figcaption {
+                opacity: 1;
+            }
+        }
+    }
+}
