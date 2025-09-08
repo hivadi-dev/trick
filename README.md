@@ -1,6 +1,6 @@
-#trick by hover
+#trick
 
-**If you have a lot of information to display on your site, why don't you use my accordion menu**
+**a little trick in the code made the project shine**
 
 ![viewfinal](https://github.com/hivadi-dev/trick/blob/main/trick.html)
 
