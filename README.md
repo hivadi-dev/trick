@@ -1,4 +1,4 @@
-# Accordion-Menu-By-React
+#trick by hover
 
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
@@ -6,9 +6,8 @@
 
 ![view final](https://github.com/hivadi-dev/trick/blob/main/assets/style.css)
 
-![view final](![view final](https://github.com/hivadi-dev/trick/blob/main/assets/style.css))
+(![view final](https://github.com/hivadi-dev/trick/blob/main/assets/style.css))
 
-- [Demo Project]()
 
 - Developed by hiva dargazani
 
