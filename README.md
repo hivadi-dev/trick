@@ -10,14 +10,14 @@
 
 - [Demo Project]()
 
-- Developed by pouria farahani
+- Developed by hiva dargazani
 
-- Created - 2022-11-26
+- Created - 
 
-- Technologies Used - Html , css , js , React.js
+- Technologies Used - Html , css 
 
 - Hooks Used : useState 
 
 - Role - Frontend
 
-- How to reach me : with my [instagram](https://www.instagram.com/pouria_farahani_developer) and [linkedin](https://www.linkedin.com/in/pouria-farahani-developer)# trick
+- How to reach me : with my [instagram](https://www.instagram.com/hivadi.dev) and [linkedin](https://www.linkedin.com/in/hivadi.dev)# trick
